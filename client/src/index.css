@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+/* Define estilos para os elementos HTML, body e o elemento com o ID 'root' */
+html,
+body,
+#root,
+.app {
+  /* Define altura e largura como 100% */
+  height: 100%;
+  width: 100%;
+  /* Define a fonte como 'Inter', uma fonte sans-serif */
+  font-family: "Inter", sans-serif;
+}
+
+/* Estilos para a barra de rolagem (scrollbar) no navegador Chrome */
+::-webkit-scrollbar {
+  width: 10px; /* Define a largura da barra de rolagem */
+}
+
+/* Estilos para a parte de trás da barra de rolagem */
+/* (a área onde a alça se move, mas não a alça em si) */
+::-webkit-scrollbar-track {
+  background: #7a7f9d; /* Define a cor de fundo da área da barra de rolagem */
+}
+
+/* Estilos para a alça da barra de rolagem */
+/* (a parte que o usuário pode agarrar e mover) */
+::-webkit-scrollbar-thumb {
+  background: #21295c;/* Define a cor da alça da barra de rolagem */
+}
+
+/* Estilos para a parte de trás da barra de rolagem quando o mouse está sobre ela */
+::-webkit-scrollbar-track:hover {
+  background: #21295c; /* Define a cor de fundo da área da barra de rolagem ao passar o mouse */
+}
